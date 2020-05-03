@@ -1,9 +1,6 @@
 {
     "name": "rocketslab/jigsaw-default-template",
     "description": "Jigsaw Default Template",
-    "require-dev": {
-        "tightenco/jigsaw": "^1.3"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +8,9 @@
             "email": "jorge@rocketslab.com.br"
         }
     ],
-    "require": {},
+    "require": {
+        "tightenco/jigsaw": "^1.3"
+    },
     "scripts": {
         "build": "vendor/bin/jigsaw build",
         "serve": "vendor/bin/jigsaw serve"
